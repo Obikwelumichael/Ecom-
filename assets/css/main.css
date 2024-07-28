@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: grid;
+    width: 100%;
+
+}
+
+.top-header {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section {
+    min-height: 200px;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+section.hero {
+    background-color: #eaeaea;
+    min-height: 400px;
+}
+
+.villain {
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
+    
+}
+
+.sidekick {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.call-of-action-content {
+    padding: 40px 20px;
+    justify-items: center;
+    display: grid;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 18px;
+    background-color: #000;
+    border-radius: 6px;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    margin: 25px;
+}
+
+.card {
+    position: relative;
+
+
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 50% 50%;
+    gap: 20px 20px;
+}
